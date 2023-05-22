@@ -1,7 +1,46 @@
-.node_modules
-node_modules
-.husky
-built
-.built
-.dist
-dist
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# misc
+.DS_Store
+*.pem
+.vscide
+
+# production
+/build
+
+# local env files
+.env*.local
+.env
+
+# testing
+/coverage
+/jest.config.js
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+tslint.json
+/dist
+
+# next.js
+/.next/
+/out/
+
+# vscode setting
+/.vscode
+.README.md
+
+# 
+.gitignore
+eventlog.txt
+errorlog.txt
+eventlog.log
+errorlog.log
+
+# 
+src/test.ts
